@@ -1,0 +1,138 @@
+@media screen and (max-width:768px){
+     header{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    button{
+        display: none;
+    }
+
+    #icons{
+        margin: 0 auto;
+        margin-top: 40px;
+        
+    }
+
+    main{
+        width: 100%;
+    }
+
+    #about-img{
+        display: none;
+    }
+
+    #about-description{
+        margin: 0;
+        margin-top: 100px;
+        width: 100%;
+
+    }
+
+    #funcionamento{
+        font-size: 15px;
+        margin-top: 80px;
+    }
+
+    #sobre{
+        font-size: 18px;
+    }
+
+    #cortes{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    #info-servicos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #servicos-description{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    #img1{
+        width: 280px;
+        margin: 0;
+        border-radius: 7px;
+    }
+
+    #img2{
+        width: 280px;
+        margin: 0;
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+
+    #img3{
+        width: 280px;
+        margin: 0;
+        margin-top: 50px;
+        border-radius: 7px;
+    }
+
+    #info1{
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius: 15px;
+        width: 280px;
+        
+        
+    }
+
+    #info2{
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 15px;
+        width: 280px;
+    }
+
+    #info3{
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 15px;
+        width: 280px;
+    }
+
+    .div-info{
+        margin-right: 20px;
+        width: 280px;
+        border-radius: 15px;
+        
+    }
+
+    #preco-1{
+        margin: 0;
+        margin-left: 107px;
+    }
+
+    #preco-2{
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    #preco-3{
+        margin: 0;
+        margin-left: 24px;
+    }
+
+    #whatsapp{
+        width: 50px;
+        position: fixed;
+        z-index: 99;
+        bottom: 60px;
+        right: 5px;
+    }
+
+    .img-servicos:hover{
+        transform: scale(1);
+    }
+        
+
+        
+
+}
